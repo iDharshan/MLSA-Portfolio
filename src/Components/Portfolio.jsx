@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/Slide3.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "a picture of wall e from the movie wall e";
 
 /**
  * Project list
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Heart Disease Prediction",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "The Heart Disease Prediction Model project was a comprehensive exercise in predictive analytics, with the intent of diagnosing heart disease using various clinical parameters.",
+    url: "https://github.com/iDharshan/Heart-Disease-Prediction",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Drug Review Sentiment Analysis",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Contributed to predict the sentiment of the drug Users, according to their reviews and various other features like the condition they are suffering from, the rating of the drug used, and others.",
+    url: "https://github.com/iDharshan/Drug-Review-Sentiment",
   },
   {
-    title: "My Resume Site",
+    title: "Amazon Reviews Sentiment Analysis",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Amazon Reviews Sentiment Analysis: Using Wordcloud and Logistic regression, this project analyzes Amazon reviews to determine sentiment (positive/negative).",
+    url: "https://github.com/iDharshan/Amazon-Review-Sentiment-Analysis",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Real-Time Video Dehazing",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Video explains the implementation of a real-time video dehazing algorithm using the FFA-Net model.",
+    url: "https://youtu.be/WjI38sMLjFg?si=NaqgnuVsZuUxKgE4",
   },
 ];
 
